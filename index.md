@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Recipes and Ratings 🍽️
+title: Animal Shelter 🐕🐈🦔🦜
 description: Description of the recipes and ratings dataset in Project 3.
 parent: 'Project 3'
 nav_exclude: true
 ---
 
-# Recipes and Ratings 🍽️
+# Animal Shelter 🐕🐈🦔🦜
 
 {:.no_toc}
 
@@ -14,8 +14,13 @@ nav_exclude: true
 
 {: .no_toc .text-delta }
 
-1. TOC
-   {:toc}
+1. [Getting the Data](#getting-the-data)
+2. [Sample Questions](#sample-questions)
+3. [Cleaning and EDA](#cleaning-and-eda)
+4. [Assessment of Missingness](#assessment-of-missingness)
+5. [Hypothesis Testing](#hypothesis-testing)
+
+
 
 ---
 
@@ -47,7 +52,7 @@ learn more about this data first before you decide whether to extend the data or
 
 A description of each column in both datasets is given below.
 
-#### allDogDescriptions.csv
+### allDogDescriptions.csv
 
 note: since the github include a great description on this data, I will borrow the words from them.
 
@@ -65,8 +70,6 @@ note: since the github include a great description on this data, I will borrow t
   find all descriptions of dogs in each shelter and combine the
   two results by the animal’s unique ID.
 - **Last Modified**: September 29, 2019
-- **Contact Information**: [Amber
-  Thomas](mailto:amber@pudding.cool)
 - **Spatial Applicability**: All data was collected for querying
   the API for adoptable dogs in each of the US states and the
   District of Columbia.
